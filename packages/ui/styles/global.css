@@ -1,0 +1,29 @@
+@theme {
+  /* --- رنگ‌ها --- */
+  /* وقتی این‌ها را تعریف کنید، کلاس‌های bg-brand, text-brand و... ساخته می‌شوند */
+  --color-brand: #3b82f6; /* آبی اصلی */
+  --color-brand-foreground: #ffffff;
+
+  --color-accent: #f59e0b; /* رنگ دوم (مثلا نارنجی) */
+  --color-danger: #ef4444; /* قرمز */
+
+  /* --- رنگ‌های پس‌زمینه و متن --- */
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+
+  /* --- فونت‌ها --- */
+  --font-display: "Vazirmatn", sans-serif; /* فونت تیترها */
+  --font-body: "Vazirmatn", sans-serif; /* فونت متن */
+
+  /* --- شعاع حاشیه (Radius) --- */
+  --radius-box: 0.5rem; /* کلاس rounded-box */
+  --radius-btn: 0.375rem; /* کلاس rounded-btn */
+
+  /* --- سایزها (Spacing) --- */
+  --spacing-128: 32rem;
+}
+
+/* تعریف متغیرهای CSS معمولی برای استفاده‌های خاص */
+:root {
+  --header-height: 4rem;
+}
